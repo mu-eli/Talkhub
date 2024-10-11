@@ -1,3 +1,3 @@
 # Talkhub
 
-#This is the final landing page for talkhub
+This is the final landing page for talkhub
