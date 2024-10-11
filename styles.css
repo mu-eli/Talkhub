@@ -1,0 +1,868 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 168px;
+    box-sizing: border-box;
+}
+
+/* Positions and styles for the header section */
+    header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 72px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+/* Styling for the anchor tag */
+header a {
+    display: inline-flex;
+    padding: 18px 30px;
+    color: #777E88;
+    text-decoration: none;
+}
+
+/* styling of hover color */
+header a:hover {
+    color: #242639;
+}
+
+.split {
+    display: flex;
+}
+
+/* positions the logo on the left */
+.split-left {
+    font-size: 48px;
+    background: url("logo.svg") no-repeat;
+}
+
+/* positions the booking button on the right */
+.split-right {
+    justify-content: flex-end;
+}
+
+/* Positions the unordered list */
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+/* Removes the dots from the list style */
+li {
+    list-style: none;
+}
+/* Aligns the remaining part of the menu section in the middle */
+.center-header {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 20px;
+}
+/* Styling for a hambuger menu */
+.hamburger {
+    display: none;
+    border: 0;
+    cursor: pointer;
+    color: #777E88;
+    background-color: transparent;
+}
+
+/* General formating and styling of all the buttons */
+.button-booking, .button-contact, .button-start, .button-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #FFFFFF;
+    background-color: #0040DD;
+    cursor: pointer;
+    text-decoration: none;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+}
+
+/* Specific stlying for the booking button */
+.button-booking {
+    padding: 4px 8px 4px 0;
+    width: 130px;
+    height: 28px;
+    font-size: 10px;
+    white-space: nowrap;
+    border-radius: 16px 16px 0 16px;
+    background-image: url("mess-logo.svg");
+}
+
+/* Specific stlying for the let's start button above the lessons offered*/
+.button-start {
+    font-size: 20px;
+    padding: 8px 42px 8px 32px;
+    margin-top: 32px;
+    border-radius: 24px 24px 24px 0;
+    background-image: url("essentials.svg");
+}
+
+/* Specific stlying for the let's start button underneath the banner*/
+.button-end {
+    font-size: 20px;
+    padding: 8px 42px 8px 32px;
+    border-radius: 24px 24px 0 24px;
+    background-image: url("essentials.svg");
+    margin: auto;
+}
+
+/* Specific stlying for the contact button */
+.button-contact {
+    font-size: 12px;
+    padding: 6px 40px 6px 24px;
+    border-radius: 24px 24px 0 24px;
+    background-image: url("essentials.svg");
+}
+
+/* styling of hover color for the buttons */
+.button-booking:hover, .button-start:hover, .button-end:hover, .button-contact:hover {
+    background-color: #438EFF;
+}
+
+/* Aligns the information section */
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+/* Styles the message inside div of the info section */
+.info-container div {
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    color: #242639;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Styling for the p tag in the info container */
+.info-container p {
+    font-size: 20px;
+    color: #777E88;
+    font-weight:normal;
+    margin-bottom: 16px;
+}
+
+/* Stlying and position for the passport size image */
+img {
+    position: static;
+    margin-bottom: 32px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+/* Styling for the courses section */
+.courses-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #777E88;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 72px;
+    padding: 32px 0;
+    border-bottom: 3px solid #F7F7F7;
+}
+
+/* Styles the description section in the middle */
+.desc-container {
+    position: relative;
+    background-color: #001342;
+    margin: 72px -168px 0;
+    padding: 48px 248px 48px 168px;
+    text-align: left;
+    resize: none;
+}
+
+/* Styles the h2 text within the desc section */
+.desc-container h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Styles the p text within the desc section */
+.desc-container p {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight:normal;
+    margin-top: 72px;
+}
+
+/* Styles the text inside the h1 tags */
+h1 {
+    font-size: 36px;
+    color: #242639;
+    text-align: center;
+    margin-top: 72px;
+}
+
+/* Styles the first 3 cards */
+.cards-container{
+    margin-right: 38px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 48px;
+    gap: 16px;
+    box-sizing: border-box;
+}
+
+/* Styles everything within the div for this section */
+.cards-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    width: 300px;
+    height: 310px;
+    padding: 50px 24px 48px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #F7F7F7;
+    border-radius: 24px;
+    margin-bottom: 48px;
+}
+
+/* Styles the text between the h4 tags within the cards section */
+.cards-container h4 {
+    color: #242639;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+/* Styles the text within the p tags in the cards section */
+.cards-container p {
+    color: #777E88;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* Styles the promotion banner */
+.promotion-banner {
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #FF9500;
+    border-radius: 20px;
+    margin: 0;
+    padding: 40px 20px;
+    width: 1050px;
+    margin-bottom: 48px;
+    box-sizing: border-box;
+}
+
+/* Styles the discount part of the banner */
+.promotion-banner div {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 24px;    
+    font-weight: bolder;
+    background-color: #FFD59930;
+    padding: 4px 24px;
+    margin-bottom: 16px;
+    border-radius: 30px 30px 0 30px;
+    border: 3px solid #FFD599;
+}
+
+/* Styles the text in the h1 tags within the banner */
+.promotion-banner h1 {
+    font-size: 36px;
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Styles the text in the p tags within the banner */
+.promotion-banner p {
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+/* Styles the text inside the h5 tags */
+h5{
+    color: #242639;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+/* Styles and positions the 3 cards for this section */
+.card-container{
+    margin-right: 38px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    box-sizing: border-box;
+} 
+
+/* Styles each card and the content within it */
+.card {
+    background-color: #0C162D; 
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 305px; 
+    height: 470px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Positions and styles the header of the cards in this section */
+.card-header {
+    color: #5A7AFF; 
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Styling for the subtitle of the cards */
+.card-content h3 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+/* Styling for the paragraphs within the student cards */
+.card-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Aligns the content of the footer section */
+.card-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Styles the image in the footer section */
+.profile-pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* positions the name and level within the footer */
+.user-info {
+    display: flex;
+    flex-direction: column;
+    color: #5A7AFF;
+    margin-left: 15px;
+}
+
+/* Styles name in the footer section */
+.user-info .name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Styles level in the footer section */
+.user-info .level {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Container for the tutor section */
+.tutor-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px;
+    height: 426px;
+    margin: 72px -168px auto;
+    background-color: #f7f7f7;
+}
+
+/* Positions the tutor's information on the left side with */
+.tutor-info {
+    flex: 1;
+    padding-right: 20px;
+    padding-left: 168px;
+}
+
+/* Styles the text within the h5 tags in the section */
+.tutor-info h5 {
+    font-size: 16px;
+    color: #777E88;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Styles the text within the h1 tags in the section */
+.tutor-info h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Styles the tutor's quote within the section */
+.tutor-quote {
+    font-size: 20px;
+    font-style: italic;
+    color: #242639;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Styles the text underneath the quote in the section */
+.tutor-description {
+    font-size: 20px;
+    color: #777E88;
+    line-height: 1.5;
+}
+
+/* Positions the tutor's image on the right side  */
+.tutor-image {
+    position: relative;
+    flex: 1;
+    text-align: left;
+}
+
+/* Styles the tutor's iamge */
+.tutor-image img {
+    width: 300px;
+    height: 426px;
+    border-radius: 0;
+}
+
+/* Helps position the tutor image and logo together*/
+.overlay-text {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    transform: translateY(-50%);
+    background-color: transparent;
+}
+/* Styles the logo next  to the tutor's image */
+.overlay-text img {
+    width: 130px;
+    height: 100px;
+}
+
+/* Container for the contact section */
+.contact-container {
+    text-align: center;
+    margin-top: 96px;
+}
+
+/* Size and spacing of the talkhub logo */
+.logo img {
+    width: 50px;
+    margin-bottom: 32px; 
+}
+
+/* Stlying of the contact content */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #777E88;
+    gap: 8px;
+}
+
+/* Stlying of the instagram logo */
+.contact img {
+    margin: 0;
+    width: 20px;
+    vertical-align: middle;
+    border-radius: 0;
+}
+
+/* formating and styling of or */
+.or {
+    margin: 0;
+    color: #777E88;
+    font-size: 14px;
+}
+
+/* Container for the footer section */
+footer {
+    margin-top: 24px;
+    border-top: 3px solid #F7F7F7;
+}
+
+/* Stlying of the footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0 40px;
+    color: #777E88;
+    font-size: 14px;
+}
+
+/* Responsive design for bigger screens */
+@media only screen and (max-width: 1024px) {
+    body {
+        margin: 0 64px;
+    }
+    header {
+        margin-bottom: 0;
+        padding: 14px;
+    }
+
+    ul {
+        font-size: 14px;
+    }
+    .courses-container {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 18px;
+        margin-top: auto;
+    }
+    .info-container div {
+        font-size: 48px;
+    }
+
+    .info-container p {
+        font-size: 20px;
+    }
+
+    .desc-container h2 {
+        font-size: 38px;
+    }
+
+    .desc-container p {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-top: 32px;
+    }
+
+    .cards-container{
+        flex-direction: row;
+        margin-top: 32px;
+    }
+
+    .cards-container div {
+        width: auto;
+        height: auto;
+    }
+
+    .cards-container h4 {
+        font-size: 20px;
+    }
+
+    .cards-container p {
+        font-size: 18px;
+    }
+
+    .promotion-banner {
+        margin-right: 32px;
+        padding: 20px;
+        height: auto;
+        width: auto;
+    }
+
+    .promotion-banner p {
+        font-size: 20px;
+    }
+
+    .promotion-banner h1 {
+        font-size: 32px;
+    }
+
+    .button-booking {
+        font-size: 12px;
+        width: auto;
+        padding: 12px 24px;
+        background-image: none;
+    }
+
+    .button-start, .button-end, .button-contact {
+        width: auto;
+        padding: 10px 24px;
+        font-size: 14px;
+        background-image: none;
+    }
+
+    h5 {
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+    
+    .card-container {
+        flex-direction: row;
+    }
+
+    .card {
+        width: auto;
+        height: auto;
+        margin-top: 32px;
+    }
+
+    .card-header {
+        font-size: 20px;
+    }
+
+    .card-content h3{
+        font-size: 16px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
+
+    .tutor-container {
+        flex-direction: column;
+        margin-top: 32px;
+        height: auto;
+    }
+    
+    .tutor-info {
+        padding-right: 0;
+    }
+
+    .tutor-info h5 {
+        font-size: 16px;
+    }
+
+    .tutor-info h1 {
+        font-size: 20px;
+    }
+
+    .tutor-quote {
+        font-size: 20px;
+    }
+
+    .tutor-description {
+        font-size: 20px;
+    }
+
+    .tutor-image img{
+        width: 150px;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .overlay-text img {
+        width: 60px;
+        height: 50px;
+    }
+    
+    .overlay-text {
+    position: absolute;
+    top: 31%;
+    left: 74%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    }
+
+    .contact-container {
+        margin-top: 20px;
+    }
+
+    .footer-content {
+        font-size: 12px;
+    }
+ 
+}
+
+/* Responsive design for smaller screens */
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 16px 32px;
+    }
+    header {
+        margin-bottom: 0;
+    }
+
+    ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        z-index: 1;
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+        background-color: #001342;
+    }
+    .hamburger {
+        display: flex;
+    }
+
+    ul.show {
+        display: flex;
+    }
+
+    .info-container div {
+        font-size: 40px;
+    }
+    .info-container p {
+        font-size: 20px;
+    }
+
+    .courses-container {
+        display: flex;
+        font-size: 14px;
+        margin-top: auto;
+    }
+
+    .desc-container {
+        margin-top: auto;
+    }
+    .desc-container h2 {
+        font-size: 28px;
+    }
+
+    .desc-container p {
+        font-size: 20px;
+        margin-top: 32px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-top: 32px;
+    }
+
+    .cards-container{
+        flex-direction: column;
+        margin-top: 32px;
+        gap: 0;
+    }
+
+    .cards-container div {
+        width: auto;
+        height: auto;
+    }
+
+    .cards-container h4 {
+        font-size: 28px;
+    }
+
+    .cards-container p {
+        font-size: 20px;
+    }
+
+    .promotion-banner {
+        padding: 20px;
+        height: auto;
+        width: auto;
+    }
+
+    .promotion-banner p {
+        font-size: 20px;
+    }
+
+    .promotion-banner h1 {
+        font-size: 32px;
+    }
+
+    .button-booking {
+        font-size: 12px;
+        width: auto;
+        padding: 6px 14px;
+        background-image: none;
+    }
+
+    .button-start, .button-end, .button-contact {
+        width: auto;
+        padding: 8px 28px;
+        font-size: 16px;
+        background-image: none;
+    }
+
+    h5 {
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+    
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: auto;
+        height: auto;
+        margin-top: 32px;
+    }
+
+    .card-header {
+        font-size: 20px;
+    }
+
+    .card-content h3{
+        font-size: 20px;
+    }
+
+    .card-content p {
+        font-size: 18px;
+    }
+
+    .tutor-container {
+        flex-direction: column;
+        margin-top: 32px;
+        height: auto;
+    }
+    
+    .tutor-info {
+        padding-right: 0;
+    }
+
+    .tutor-info h5 {
+        font-size: 14px;
+    }
+
+    .tutor-info h1 {
+        font-size: 20px;
+    }
+
+    .tutor-quote {
+        font-size: 22px;
+    }
+
+    .tutor-description {
+        font-size: 20px;
+    }
+
+    .tutor-image img{
+        width: 150px;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .overlay-text img {
+        width: 60px;
+        height: 50px;
+    }
+    
+    .overlay-text {
+    position: absolute;
+    top: 31%;
+    left: 74%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    }
+
+    .contact-container {
+        margin-top: 20px;
+    }
+
+    .footer-content {
+        font-size: 12px;
+    }
+ 
+}
