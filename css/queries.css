@@ -1,0 +1,510 @@
+/************************************/
+/* BELOW 1361px (Smaller Desktops) */
+/************************************/
+
+@media (max-width: 85em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .sticky .header {
+    left: 0;
+    right: 0;
+  }
+
+  .courses {
+    font-size: 1.8rem;
+    gap: 2.6rem;
+  }
+
+  .focus-box {
+    background-position: 75% bottom;
+  }
+
+  .sign-up--package {
+    background-size: 50%, 40%;
+  }
+
+  .testimonial-grid {
+    column-gap: 1.7rem;
+    row-gap: 1.8rem;
+  }
+}
+
+/*************************************/
+/* BELOW 1201px (Landscape Tablets) */
+/*************************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 50%;
+  }
+
+  .sticky .header {
+    left: 0;
+    right: 0;
+  }
+
+  .courses {
+    font-size: 1.8rem;
+    gap: 2.6rem;
+  }
+
+  .focus-box {
+    background-position: 82% bottom;
+  }
+
+  .sign-up--package {
+    background-size: 50%, 40%;
+  }
+
+  .section-discount {
+    padding: 0;
+  }
+}
+
+/*************************************/
+/* BELOW 897px (Tablets) */
+/*************************************/
+
+@media (max-width: 56em) {
+  .header {
+    padding: 4.4rem;
+  }
+
+  .sticky .header {
+    left: 0;
+    right: 0;
+  }
+
+  .book-button {
+    background-image: none;
+    padding: 0.8rem 0.2rem 0.8rem 0;
+  }
+
+  .section-hero {
+    padding: 4.8rem;
+  }
+
+  .courses {
+    text-wrap: nowrap;
+    font-size: 1.8rem;
+    gap: 1.8rem;
+    overflow: auto;
+    margin: 0 4.8rem 4.8rem 4.8rem;
+    border: none;
+  }
+
+  .hero-text--box {
+    grid-column: 1 / -1;
+  }
+
+  .colors {
+    display: none;
+  }
+
+  .aside-border {
+    border-bottom: none;
+  }
+
+  .focus-text--box {
+    width: 66.5rem;
+  }
+
+  h2 {
+    padding-left: 3rem;
+  }
+
+  .focus-text {
+    padding: 5.4rem 0 0 3rem;
+  }
+
+  .focus-box {
+    background-size: 25%;
+    background-position: 91% bottom;
+  }
+  .sign-up--level,
+  .sign-up--package,
+  .sign-up--session {
+    width: 30rem;
+  }
+
+  .sign-up--cols {
+    justify-content: center;
+    gap: 1.2rem;
+  }
+
+  .level-text {
+    padding: 12.6rem 2.4rem 0;
+  }
+
+  .sign-up--level {
+    background-size: 70%;
+  }
+  .sign-up--package {
+    background-size: 50%, 40%;
+  }
+  .sign-up--session {
+    background-size: 70%;
+  }
+
+  .discount {
+    width: 86.5%;
+  }
+
+  .offer-details {
+    font-size: 3.2rem;
+  }
+
+  .offer-info {
+    font-size: 1.8rem;
+  }
+
+  .testimonial-grid {
+    justify-items: center;
+    column-gap: 4rem;
+  }
+
+  .testimonial-box--1,
+  .testimonial-box--2 {
+    width: 30rem;
+  }
+
+  .testimonial-box--1,
+  .testimonial-box--5 {
+    height: 47rem;
+  }
+
+  .testimonial-box--2,
+  .testimonial-box--6 {
+    height: 35rem;
+  }
+
+  .testimonial-box--3,
+  .testimonial-box--4 {
+    height: 40rem;
+  }
+
+  .testimonial-box--5 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .testimonial-box--6 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .testimonial-text--3,
+  .testimonial-text--4 {
+    padding: 1rem 4rem 3.9rem 4rem;
+  }
+
+  .testimonial-text--2,
+  .testimonial-text--6 {
+    padding: 1rem 4rem 3.9rem 4rem;
+  }
+
+  .testimonial-heading {
+    padding: 2.4rem 0 2.4rem 2.4rem;
+  }
+
+  .testimonial-text--1 {
+    padding: 1rem 4rem 3.9rem 4rem;
+  }
+
+  .testimonial-text--2 {
+    padding: 1rem 4rem 3.9rem 4rem;
+  }
+
+  .section-tutor {
+    padding: 2.4rem 4.8rem;
+  }
+
+  .tutors {
+    grid-template-columns: 1.7fr 1.3fr;
+    width: 60.8rem;
+    height: 34rem;
+  }
+
+  .tutor-subtext {
+    padding-top: 2.8rem;
+  }
+
+  .tutor-intro {
+    padding-bottom: 2.8rem;
+  }
+
+  .tutor-intro,
+  .tutor-name {
+    font-size: 2rem;
+  }
+  .tutor-subtext,
+  .tutor-details {
+    font-size: 1.8rem;
+  }
+
+  .tutor--img {
+    background-position: 108% 18%;
+    background-size: 10rem;
+  }
+
+  .footer-logo {
+    margin-top: 6.2rem;
+  }
+
+  .footer-copyright {
+    padding: 3.2rem 4.8rem;
+  }
+
+  .btn-mobile--nav {
+    display: inline-block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: #0d44d1;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(-100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    z-index: 1;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile--nav[name="close-outline"] {
+    display: block;
+    color: #fff;
+  }
+
+  .nav-open .icon-mobile--nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav--list {
+    flex-direction: column;
+    gap: 3.2rem;
+    font-size: 3.2rem;
+  }
+
+  .main-nav--link:link,
+  .main-nav--link:visited {
+    color: #fff;
+  }
+}
+
+/*************************************/
+/* BELOW 561px (Phones) */
+/*************************************/
+
+@media (max-width: 35em) {
+  .header {
+    padding: 4.4rem;
+  }
+
+  .sticky .header {
+    left: 0;
+  }
+
+  .book-button {
+    font-size: 1.2rem;
+    width: 13.4rem;
+    background-image: none;
+    padding: 1.2rem 1.6rem;
+  }
+
+  .section-hero {
+    padding: 5.2rem 2.4rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-img {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
+
+  .hero-imgs {
+    margin-bottom: 0;
+  }
+
+  .overlap-img {
+    position: absolute;
+    top: 0;
+    left: 9%;
+  }
+
+  .primary-text {
+    font-size: 3rem;
+  }
+
+  .colors {
+    display: none;
+  }
+
+  .courses {
+    display: none;
+  }
+
+  .focus-text--box {
+    width: 46rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    padding-left: 2.4rem;
+  }
+
+  .focus-text {
+    font-size: 1.8rem;
+    padding-left: 2.4rem;
+    padding-top: 4.2rem;
+  }
+
+  .focus-box {
+    background-position: 85% bottom;
+  }
+
+  .section-sign--up {
+    padding: 3.6rem 2.4rem 0;
+  }
+
+  .section-sign--up .tertiary-heading {
+    font-size: 3.2rem;
+  }
+
+  .level-text {
+    padding: 19.6rem 7rem 0;
+  }
+  .package-text,
+  .session-text {
+    padding: 4.8rem 7rem 0;
+  }
+
+  .description-text {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .sign-up--level,
+  .sign-up--package,
+  .sign-up--session {
+    width: 42rem;
+  }
+
+  .sign-up--cols {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.8rem;
+  }
+
+  .discount {
+    width: 90%;
+  }
+
+  .offer-text {
+    font-size: 2.3rem;
+  }
+
+  .offer-details {
+    font-size: 2.4rem;
+  }
+
+  .offer-info {
+    font-size: 1.4rem;
+  }
+
+  .testimonial-grid {
+    grid-template-columns: repeat(auto-fit, 50rem);
+    justify-items: center;
+  }
+
+  .testimonial-box--1,
+  .testimonial-box--2 {
+    width: 42rem;
+  }
+
+  .testimonial-box--4,
+  .testimonial-box--3,
+  .testimonial-box--5,
+  .testimonial-box--6 {
+    display: none;
+  }
+
+  .section-tutor {
+    padding: 0 2.4rem;
+  }
+
+  .tutors {
+    grid-template-columns: 1fr;
+    height: 82rem;
+    width: 43rem;
+  }
+
+  .tutor-intro {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+
+  .tutor-details {
+    font-size: 1.6rem;
+    line-height: 1.3;
+    padding-bottom: 3.2rem;
+  }
+
+  .tutor-subtext {
+    padding-top: 4.8rem;
+  }
+
+  .tutor-img {
+    text-align: center;
+  }
+
+  .tutor--img {
+    width: 80%;
+    height: 100%;
+    background-position: 100% 18%;
+  }
+
+  .footer-copyright {
+    padding: 3.2rem 2.4rem;
+  }
+
+  .contact-button {
+    background-image: none;
+    padding: 0.8rem 0;
+  }
+
+  .contacts {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .contact-text {
+    display: none;
+  }
+
+  .lan-en,
+  .lan-tr,
+  .copyright {
+    font-size: 1.2rem;
+  }
+}
